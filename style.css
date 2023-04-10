@@ -15,7 +15,7 @@
 .card{
     width: 350px;
     height: 515px;
-    background-color: #fff;
+    /* background-color: #fff; */
     margin: 100px auto 0;
 }
 
@@ -30,6 +30,8 @@
     height: 100%;
     position: absolute;
     border-radius: 15px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .front{
@@ -41,7 +43,7 @@
     justify-content: flex-end;
     /* align-items: center; */
     padding: 20px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 
@@ -71,6 +73,20 @@
 
 /* ---------------------------------------------------------- */
 
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.back h1 span{
+    font-weight: 400;
+}
+
+.back p span{
+    font-weight: 600;
+}
 
 
 
