@@ -4,3 +4,10 @@
     box-sizing: border-box;
     font-family: 'Popins', sans-serif;
 }
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3dbf6, #a99bf9);
+    padding: 10px;
+}
