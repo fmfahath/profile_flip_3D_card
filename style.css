@@ -120,13 +120,30 @@
     flex: 1;
     text-align: center;
     color: #555;
-    font-size: 12px;
+    position: relative;
 }
 
 .row .col h2{
     font-size: 20px;
 }
 
+.row .col p{
+    font-size: 13px;
+}
+
+.row .col::after{
+    content: "";
+    width: 1.5px;
+    height: 20px;
+    background-color: #7800ad;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.row .col:last-child::after{
+    display: none;
+}
 
 
 
