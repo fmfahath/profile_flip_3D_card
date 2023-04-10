@@ -80,15 +80,16 @@
     height: 100%;
     background-color: #fff;
     padding: 20px 40px;
+ 
 }
 
-.back h1{
+.back h2{
     font-size: 50px;
     line-height: 55px;
     margin-bottom: 10p;
 }
 
-.back h1 span{
+.back h2 span{
     font-weight: 400;
 }
 
@@ -103,6 +104,27 @@
 .back img{
     width: 100px;
     height:  100px;
+}
+
+/* ----------------------------------------------------------------- */
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.row .col{
+    flex: 1;
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+}
+
+.row .col h2{
+    font-size: 20px;
 }
 
 
