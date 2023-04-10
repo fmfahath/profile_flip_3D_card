@@ -11,3 +11,11 @@
     background: linear-gradient(135deg, #e3dbf6, #a99bf9);
     padding: 10px;
 }
+
+.card{
+    width: 350px;
+    height: 515px;
+    background-color: #fff;
+    position: relative;
+    margin: 100px auto 0;
+}
