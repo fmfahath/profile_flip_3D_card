@@ -145,6 +145,20 @@
     display: none;
 }
 
+/* ------------------------------------------------------------------------------- */
+
+.back button{
+    padding: 8px 25px;
+    border: none;
+    outline: 0;
+    border-radius: 30px;
+    background-color: #7800ad;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 14px;
+    box-shadow: 0 8px 10px rgba(120,0,173,0.3);
+}
+
 
 
 
